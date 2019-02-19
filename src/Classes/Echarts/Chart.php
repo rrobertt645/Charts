@@ -46,7 +46,9 @@ class Chart extends BaseChart
                 'show' => true,
             ],
             'yAxis' => [
-                'show' => true,
+                [
+                    'show' => true,
+                ],  
             ],
         ]);
     }
